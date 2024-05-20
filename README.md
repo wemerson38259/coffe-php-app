@@ -27,9 +27,18 @@ A coffee shop, that list of various types os coffee. It's possible to add differ
 
 ## LIBS
 
-<p align="center"><a href="https://livewire.laravel.com/" target="_blank"><img src="https://avatars.githubusercontent.com/u/51960834?v=4" width="100" alt="Livewire Logo">Livewire v3</a></p>
-<p align="center"><a href="https://tailwindcss.com/m" target="_blank"><img src="https://avatars.githubusercontent.com/u/30317862?v=4" width="100" alt="TailwindCSS Laravel Logo">TailwindCSS</a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://https://avatars.githubusercontent.com/u/988990?v=4" width="100" alt="AlpineJs Logo">AlpilneJS</a></p>
+<p align="center">
+    <a href="https://livewire.laravel.com/" target="_blank"><img src="https://avatars.githubusercontent.com/u/51960834?v=4" width="25" alt="Livewire Logo"></a>
+    Livewire v3
+</p>
+<p align="center">
+    <a href="https://tailwindcss.com/m" target="_blank"><img src="https://avatars.githubusercontent.com/u/30317862?v=4" width="25" alt="TailwindCSS Logo"></a>
+    TailwindCSS
+</p>
+<p align="center">
+    <a href="https://laravel.com" target="_blank"><img src="https://https://avatars.githubusercontent.com/u/988990?v=4" width="25" alt="AlpineJs Logo"></a>
+    AlpilneJS
+</p>
 
 ## COMPONENTS
 
