@@ -27,9 +27,9 @@ A coffee shop, that list of various types os coffee. It's possible to add differ
 
 ## LIBS
 
-<p align="center"><a href="https://livewire.laravel.com/" target="_blank"><img src="livewire-logo.svg" width="400" alt="Laravel Logo"></a>Livewire v3</p>
-<p align="center"><a href="https://tailwindcss.com/m" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a>TailwindCSS</p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">AlphalneJS</a></p>
+<p align="center"><a href="https://livewire.laravel.com/" target="_blank"><img src="https://avatars.githubusercontent.com/u/51960834?v=4" width="100" alt="Livewire Logo"></a>Livewire v3</p>
+<p align="center"><a href="https://tailwindcss.com/m" target="_blank"><img src="https://avatars.githubusercontent.com/u/30317862?v=4" width="100" alt="TailwindCSS Laravel Logo"></a>TailwindCSS</p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://https://avatars.githubusercontent.com/u/988990?v=4" width="100" alt="AlpineJs Logo">AlpilneJS</a></p>
 
 ## COMPONENTS
 
