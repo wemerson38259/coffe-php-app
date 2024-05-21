@@ -37,6 +37,66 @@ A coffee shop, that list of various types os coffee. It's possible to add differ
     <a href="https://laravel.com" target="_blank" align="center"><img src="https://avatars.githubusercontent.com/u/988990?v=4" width="25" alt="AlpineJs Logo"> AlpilneJS</a>
 </p>
 
+## DICAS
+
+1 - SEMPRE COMEÇAR UM COMPONENTE PELOS TESTES
+1.1 - UTILIZAR O MODEL MYMODEL::CLASS, COM ISSO CASO SEJA NECESSARIO UM REALOCAMENTO DE TABELA NAO TERA NECESSIDADE DE ALTERAR NOS TESTES
+2 - CRIAR COMPONENTES COM UMA UNICA RESPONSABILIDADE
+
+## ESTUDOS
+
+Laravel - Seil
+Controlador de versionamento entre a aplicaçao local e no ambiente Docker. <a href="https://laravel.com/docs/11.x/sail">Documentaçao Seil</a>
+
+Criaçao de controllers
+Simples
+
+```
+php artisian maker:controller NomeDoMeuController
+```
+
+Resource
+
+```
+php artisian maker:controller NomeDoMeuController
+```
+
+Migration
+
+Model
+
+```
+--
+```
+
+Factory
+
+<h2>Livewire</h2>
+<p>Comandos <i><b>make<b></i></p>
+
+```
+php artisan make:livewire foo           //Creates Foo.php & foo.blade.php
+
+php artisan make:livewire foo-bar       //Creates FooBar.php & foo-bar.blade.php
+
+php artisan make:livewire Foo           //Creates Foo.php & foo.blade.php
+
+php artisan make:livewire FooBar        //Creates FooBar.php & foo-bar.blade.php
+
+php artisan make:livewire foo.bar       //Creates Foo/Bar.php & foo/bar.blade.php
+
+php artisan make:livewire foo --inline  //Creates only Foo.php
+
+php artisan make:livewire foo --test    //Creates Foo.php, foo.blade.php, & FooTest.php
+
+```
+
+Utilizando Sail para sincronizaçao da aplicaçao local e no ambiente Docker
+
+```
+sail artisian maker:controller NomeDoMeuController
+```
+
 ## COMPONENTS
 
 ## FIGMA
