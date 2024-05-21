@@ -9,11 +9,18 @@ use Livewire\Component;
 class TodoList extends Component
 {
     public string $description = '';
+    public $toggleAll = false;
 
     #[Computed]
     public function todos()
     {
         return Todo::all();
+    }
+
+    public function getTodos(int $checkTodos)
+    {
+        // dd(Todo::where('done','=',$checkTodos)->get());
+        Todo::where('done','=',$checkTodos)->get();
     }
 
     public function save(): void
@@ -33,9 +40,22 @@ class TodoList extends Component
         ]);
     }
 
+    public function toggleAllTask(): void
+    {
+        Todo::query()->update([
+            'done' => !$this->toggleAll,
+        ]);
+        $this->toggleAll = !$this->toggleAll;
+    }
+
     public function destroyTask(Todo $todo): void
     {
         $todo->delete();
+    }
+
+    public function destroyAllTask(): void
+    {
+        Todo::where('done','=','1')->delete();
     }
 
     public function render()
