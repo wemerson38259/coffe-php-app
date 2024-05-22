@@ -50,9 +50,9 @@
                         <span class=""><b>{{ count($this->todos) }}</b> item{{count($this->todos) > 1? 's' : '' }} left!</span>
                     </div>
                     <div class="flex gap-4">
-                        <div class="underline underline-offset-2">All</div>
-                        <div class="underline underline-offset-2" wire:click="getTodos({{ 0 }})">Active</div>
-                        <div class="underline underline-offset-2" wire:click="getTodos({{ 1 }})">Completed</div>
+                        <button class="underline underline-offset-2" wire:click="$set('filter', '')">All</button>
+                        <button class="underline underline-offset-2" wire:click="$set('filter', 'active')">Active</button>
+                        <button class="underline underline-offset-2" wire:click="$set('filter', 'completed')">Completed</button>                        
                     </div>
                 </div>
                 <button wire:click="destroyAllTask" class="text-white bg-red-500 hover:bg-red-400 h-10 rounded-xl border-2 border-red-500">Clear Completed</button>

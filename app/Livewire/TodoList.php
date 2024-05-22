@@ -9,18 +9,19 @@ use Livewire\Component;
 class TodoList extends Component
 {
     public string $description = '';
+
     public $toggleAll = false;
+
+    public ?string $filter = '';
 
     #[Computed]
     public function todos()
     {
-        return Todo::all();
-    }
-
-    public function getTodos(int $checkTodos)
-    {
-        // dd(Todo::where('done','=',$checkTodos)->get());
-        Todo::where('done','=',$checkTodos)->get();
+        return Todo::when(
+            $this->filter,
+            fn ($query) => $query->where('done', $this->filter == 'completed')
+        )
+        ->get();
     }
 
     public function save(): void
